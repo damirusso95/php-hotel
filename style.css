@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+        body {
+            background-color: #6b6c6c;
+        }
+        .table-container {
+            max-width: 800px;
+            margin: 10rem auto;
+            background-color: #ececec;
+            padding: 20px;
+            border-radius: 10px;
+          display: flex;
+          justify-content: center;
+          flex-direction: column;
+          text-align: left;
+
+        }
+        .table th, .table td {
+            vertical-align: middle;
+        }
+        .table thead th {
+            background-color: #343a40;
+            color: #ffffff;
+        }
+        .table tbody tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        
+    
